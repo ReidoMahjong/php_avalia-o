@@ -1,0 +1,100 @@
+body {
+    background-image: url(img/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tittle {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 440px;
+}
+
+.box {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin-left: 200px;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.line {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    opacity: 100%;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+    border-radius: 25px;
+    padding: 7px;
+    transition: all ease-out 0.25s;
+}
+
+.line:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgba(255, 255, 255, 0.80);
+    transition: all ease-out 0.25s;
+}
+
+.button {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    border: none;
+    color: rgb(255 255 255 / 0.5);
+    transition: all ease-out 0.25s;
+    margin-top: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    transition: all ease-out 0.25s;
+}
+
+.txt {
+    background-color: rgba(169, 0, 0, 0.25);
+    font-size: 15px;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all ease-out 0.25s;
+}
+
+.txt:hover {
+    background-color: rgba(169, 0, 0, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    transition: all ease-out 0.25s;
+}
+
+table {
+    width: 90%;
+    margin-left: 24px;
+}
+
+td {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgb(138, 138, 138);
+}
+
+a {
+    text-decoration: none;
+}

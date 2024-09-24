@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Informática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="tittle">IGOR</h1>
+    <div class="box">
+        <div id="intro">
+            <li class="line">Seja muito bem vindo!</li>
+            <li class="line">Clique em continuar para cadastrar um produto!</li>
+            <button class="button" onclick="cont()">continuar</button>
+        </div>
+        <form id="form" style="display: none;" method="post" action="manipular_bd.php">
+            <li class="line">
+                <label for="nome">Nome do produto:</label>
+                <input class="txt" type="text" name="nome" id="nome">
+            </li>
+            <li class="line">
+                <label for="desc">Descrição:</label>
+                <input class="txt" type="text" name="desc" id="desc">
+            </li>
+            <li class="line">
+                <label for="price">Preço:</label>
+                <input class="txt" type="text" name="price" id="price">
+            </li>
+            <li class="line">
+                <label for="qt">Quantidade:</label>
+                <input class="txt" type="text" name="qt" id="qt">
+            </li>
+            <input type="submit" value="Cadastrar!" class="button">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
